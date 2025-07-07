@@ -1,0 +1,10 @@
+[core]
+    remote = s3_remote
+['remote "gdrive_remote"']
+    url = gdrive://1u7vGd7KhNjhikm1qiX-uvi45OEeJ6cmM
+    gdrive_use_service_account = false
+[remote "myremote"]
+    url = s3://your-bucket
+    access_key_id = ${AWS_ACCESS_KEY_ID}
+    secret_access_key = ${AWS_SECRET_ACCESS_KEY}
+    region = eu-north-1

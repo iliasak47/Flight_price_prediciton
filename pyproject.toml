@@ -13,7 +13,8 @@ dependencies = [
     "scikit-learn (>=1.7.0,<2.0.0)",
     "matplotlib (>=3.10.3,<4.0.0)",
     "seaborn (>=0.13.2,<0.14.0)",
-    "jupyter (>=1.1.1,<2.0.0)"
+    "jupyter (>=1.1.1,<2.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)"
 ]
 
 
@@ -25,4 +26,7 @@ build-backend = "poetry.core.masonry.api"
 pytest = "^8.4.1"
 black = "^25.1.0"
 isort = "^6.0.1"
+dvc = {extras = ["s3"], version = "^3.60.1"}
+pyopenssl = "22.1.0"
+cryptography = "38.0.4"
 
