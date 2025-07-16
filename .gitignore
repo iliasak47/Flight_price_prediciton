@@ -1,5 +1,12 @@
 .venv/
+.env/
+*.env
 .ipynb_checkpoints/
 data/raw/Clean_Dataset.csv
 .dvc/config
 data/processed
+models/*.pkl
+*.log
+.DS_Store
+__pycache__/
+*.pyc
