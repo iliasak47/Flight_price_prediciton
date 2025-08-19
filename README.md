@@ -6,8 +6,7 @@ The final product is a simple web service that uses a REST API to receive input 
 ##  Technologies Used
 
 - [Poetry](https://python-poetry.org/) — for dependency and virtual environment management  
-- [DVC](https://dvc.org/) — for dataset and model versioning  
-- [Pytest](https://docs.pytest.org/) — for unit testing  
+- [DVC](https://dvc.org/) — for dataset and model versioning   
 - [FastAPI](https://fastapi.tiangolo.com/) — to expose the model as a REST API  
 - Jupyter Notebook — for initial data exploration (EDA)
 
